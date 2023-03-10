@@ -1,0 +1,17 @@
+form {
+ display:flex; 
+ flex-direction: column;
+ gap: 1em;
+ max-width: 600px;
+ margin: 0;
+ background-color: antiquewhite;
+ padding: 1em;
+}
+
+form input {
+    padding: 0.5em;
+}
+
+form input [type=sumbit] {
+    width: fit-content;
+}
