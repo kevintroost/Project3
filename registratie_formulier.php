@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Chirpify</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<section class="homepage homeregistratie">
+  <div class="sidebar">
+    <img class="logo" src="img/chitter.png" width="48px" height="48px" alt="chitterlogo">
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="index.php">Profile</a></li>
+    </ul>
+    <div class="spacer"></div>
+
+
+    </div>
+  </div>
+    <div class="feed">
     <h1>Registratieformulier</h1>
     <form action="">
         <label for="voornaam">Voornaam</label>
@@ -20,5 +34,12 @@
         <input type="password" id="wachtwoord" name="wachtwoord">
         <input type="submit" value="Registreren">
     </form>
+    </div>
+    <div class="featured">
+  <a class="login" href="">Login</a>
+  <a class="alreadysigningin" >Sign up</a>
+
+  </div>
+</section>
 </body>
 </html>
