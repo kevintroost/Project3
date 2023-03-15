@@ -21,17 +21,17 @@
     <h1>Registratieformulier</h1>
     <form action="">
         <label for="voornaam">Voornaam</label>
-        <input type="text" id="voornaam" name="voornaam">
+        <input type="text" id="voornaam" name="voornaam" required>
         <label for="achternaam">Achternaam</label>
-        <input type="text" id="achternaam" name="achternaam">
+        <input type="text" id="achternaam" name="achternaam" required>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" required>
         <label for="gebruikersnaam">Username</label>
-        <input type="text" id="gebruikersnaam" name="gebruikersnaam">
+        <input type="text" id="gebruikersnaam" name="gebruikersnaam" required>
         <label for="wachtwoord">Wachtwoord</label>
-        <input type="password" id="wachtwoord" name="wachtwoord">
+        <input type="password" id="wachtwoord" name="wachtwoord" required>
         <label for="wachtwoord">Wachtwoord herhalen</label>
-        <input type="password" id="wachtwoord" name="wachtwoord">
+        <input type="password" id="wachtwoord" name="wachtwoord" required>
         <input type="submit" value="Registreren">
     </form>
     </div>
